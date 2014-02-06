@@ -1,0 +1,72 @@
+
+>> 關 於 作 者 <<
+
+     姓   名    : Wilhelm Chao
+     地   址    : 台北市信義區虎林街 108 巷 8 號
+
+
+>> 關 於 軟 體 <<
+
+     LEBEN.EXE : 主執行程式, 以 Pascal 寫成
+     LEBEN.LIF : 預設之 <生 命 圖 樣> 資料檔
+     LEBEN.HLP : 英文輔助說明檔
+     LEBEN.HLC : 中文輔助說明檔
+     LEBEN.DOC : 英文文件檔
+     LEBEN.DCC : 本中文文件檔
+    (LEBEN.PRN): 使用者 <生 命 圖 樣> 輸出檔
+
+
+>> 關 於 版 本 <<
+
+     1.0 : 1993.4.25
+           適用 : 單色文字 80x25 模式
+           功能 : 結束, 移動, 切換, 清除, 生長, 停止
+     2.0 : 1994.1.24
+           適用 : 彩色文字 80x50 模式
+           改進 : 選單, 生長, 停止
+           增加 : 版頭, 隱藏游標, 顯示世代.細胞數.名稱, 版尾, LEBEN.LIF
+                  隨機, 單步, 載入, 儲存, 列示
+     2.5 : 1994.3.2
+           適用 : 彩色文字 80x25 模式
+           刪除 : 版尾, 顯示名稱
+           改進 : 版頭, 選單, LEBEN.LIF
+                  單步, 生長, 隨機, 載入, 儲存, 列示
+           增加 : 顯示號碼, LEBEN.HLP, LEBEN.DOC, (LEBEN.PRN)
+                  輔助, 載次, 解釋, 輸出, 調中
+     3.0 : 1994.4.4
+           適用 : 彩色文字 80x25, 80x43, 80x50 模式
+           刪除 : 列示, 調中, 顯示號碼
+           改進 : 載入, 儲存, 隨機, 選單, 特徵,
+                  LEBEN.LIF, LEBEN.HLP, LEBEN.DOC
+           增加 : 刪除, 命名, 尋找, 旋轉, 音效, 滑鼠, 中文, 參數
+                  LEBEN.HLC, LEBEN.DCC, (LEBEN.BAK)
+     3.1 : 1994.4.30
+           適用 : 彩色文字 80x25(支援中文), 80x43, 80x50, 80x60 模式
+           刪除 : 刪除, (LEBEN.BAK)
+           改進 : 選單, 滑鼠, 發聲, 參數, 輔助, 解釋
+                  LEBEN.LIF, LEBEN.HLP, LEBEN.DOC
+           增加 : 合法判別, 推入, 提出, 平移, 鏡像
+     3.2 : 1994.5.21
+           適用 : 彩色文字 80x25(支援中文), 80x43, 80x50, 80x60 模式
+           改進 : 滑鼠, LEBEN.LIF
+     X.X : XXXX.X.XX
+           適用 : 所有模式
+           增加 : 其他規則, 發現者
+
+
+>> 關 於 參 考 文 獻 <<
+
+        * 表示手頭上有
+
+    *1. Anibal Antonio Acero, "AAALIFE.ZIP", v.1.0, 1989
+    *2. David Samuel Stauffer, "LIFE101.ZIP", 1989
+    *3. Jeffrey Youngstrom, "AALIFE.ZIP"
+     4. William Poundstone, "The Recursive Universe",
+        William Morrow and Company, NY:1985, p.p.252
+     5. John Horton Conway, 1968
+    *6. Martin Gardener, Scientific American, 1970.10
+     7. Byte
+    *8. 瑞吉斯, "柏拉圖的天空", 天下文化譯, 1992
+     9. A.K.Dewdney, "The fantastic combinations of John Conway's new solitaire game 'life'",
+        Scientific American, 1985.5
+

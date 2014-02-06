@@ -1,0 +1,127 @@
+奼迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋
+                                                     
+                秺 痁 秺 秺譟                    
+                                         
+             蚅 蚅 陑 蚅        v 3.3          
+                                                     
+  (C)Copyright  1994.5            by  Wilhelm Chao   
+                                                     
+闡闡闡闡闡闡闡闡闡闡闡闡闡闡闡闡闡闡闡闡闡闡闡闡闡闡
+                                                     
+      In 1968  John Horton Conway invented a set of  
+  rules, called the game of life, for the growth of  
+  cells.  This shareware is a simulation of that on  
+  the computer with many useful functions.           
+                                                     
+              I hope you will like it !              
+                                                     
+迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋迋
+
+
+
+
+                        >> Command-line Syntax <<
+
+          Syntax : LEBEN [/{C|E|V|P}] [/S] [/B] [/M] [file name]
+                         default > LEBEN /C LEBEN.LIF
+
+               LEBEN : "life" in german
+
+                  /C : CGA 80x25 mode, support Chinese and Mouse
+                  /E : EGA 80x43 mode
+                  /V : VGA 80x50 mode
+                  /P : VGA+ 80x60 mode
+
+        /S : Sound off    /B : Black background    /M : Master mode
+
+           file name : File that include <life pattern>s
+                       (use processer with 2000 columns to edit it)
+           structure : <name of life pattern>< ><other character>
+                       < ><life pair>< ><life pair>...< ><life pair>
+                        :                   :
+
+
+                            >> Function Keys <<
+
+     H : help you to play            ESC : quit this program
+      : move the cursor         ^v<> : shift this <life pattern>
+
+     N : name this <life pattern>      O : output <life pattern> to file
+     S : save this <life pattern>      X : load next <life pattern>
+     L : load a <life pattern>         E : explain this <life pattern>
+     R : rotate this <life pattern>    M : mirror this <life pattern>
+     A : auto creat a <life pattern>   C : clear the screen
+     G : get this <life pattern>       P : put this <life pattern>
+
+           BAR : toggle one <life cell>
+         ENTER : run this <life pattern> to see <life form> or stop
+           TAB : run this <life pattern> step by step
+     BACKSPACE : find the possible elementary <life pattern>s or stop
+
+           gen : how many generations have passed
+           sum : the total number of <life cell>s in this <life pattern>
+
+
+                         >> Rules of <life form> <<
+
+         <life cell>    : one full site on the screen
+         <life pair>    : the coordinate of <life cell>
+         <life pattern> : set of <life pair>
+         <life form>    : series of <life pattern>
+
+         each site on the screen has :
+                                                                 123
+            2 states (full or empty) and 8 neighboring sites :   4 5
+                                                                 678
+         into next generation :
+
+                if a <life cell> has 2 or 3 neighboring <life cell>s
+                   then keeps alive
+                   else dies (becomes empty)
+
+                if an empty site has just 3 neighboring <life cell>s
+                   then bears a new <life cell>
+
+
+                        >> Rules of Nomenclature <<
+
+  <name of life pattern> := <name of life form>.<item type>[<item number>]
+
+     <name of life form> := <classification>-<discription>[-<foot number>]
+
+        <classification> := <end type><range type><amount type>
+              <end type> := E|D|C|?
+                 end of <life form> is Elementary | Dead | Compound
+            <range type> := C|L|I|?
+                 range of <life form> is Constant | Limited | Infinite
+           <amount type> := C|L|I|?
+                 amount of <life form> is Constant | Limited | Infinite
+           <discription> := string
+           <foot number> := to differentiate same <classi.>-<discri.>s
+
+             <item type> := B|R
+                the pattern is Befor steady | in the Repeat
+           <item number> := number to identify item
+
+
+                          >> Other Characters <<
+
+    <other character> := S<S number>P<P number>A<A number>
+           <S number> := 0|1|2|3|4|5|6|7
+                     0 : no symmetry
+                     1 : symmetry to X=0 xor Y=0
+                     2 : symmetry to X=0 and Y=0
+                     3 : symmetry to X=Y xor X=-Y
+                     4 : symmetry to X=Y and X=-Y
+                     5 : symmetry to center 180
+                     6 : symmetry to center 90
+                     7 : symmetry to X=0 and Y=0 and X=Y and X=-Y
+           <P number> := 0|1|2..
+                     0 : no steady period
+                     1 : each <life pattern> is the same when steady
+                   2.. : the period of appearance of <life pattern>s
+           <A number> := 0|1.. (relates to <foot number>)
+                     0 : infinite <life form>s are alike
+                   1.. : amount of <life form>s, which are alike
+
+

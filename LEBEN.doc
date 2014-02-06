@@ -1,0 +1,73 @@
+
+>> about the author <<
+
+     name       : Wilhelm Chao
+     address    : 8, 108 lane, Hu-Lin street
+                  Taipei, Taiwan, R.O.C.
+
+
+>> about the package <<
+
+     LEBEN.EXE : main program, written in Pascal
+     LEBEN.LIF : the default datafile of <life pattern>s
+     LEBEN.HLP : help you to understand and play this simulation
+     LEBEN.HLC : chinese version of LEBEN.HLP
+     LEBEN.DOC : this file
+     LEBEN.DCC : chinese version of LEBEN.DOC
+    (LEBEN.PRN): the output file of <life pattern>s
+
+
+>> about the version <<
+
+     1.0 : 1993.4.25
+           for MONO TEXT 80x25 mode
+           function : Quit, Move cursor, Toggle, Clean, Run, Stop
+     2.0 : 1994.1.24
+           for COLOR TEXT 80x50 mode
+           advance : menu, Run, Stop
+           add : title, hide cursor, show gen. sum name, end, LEBEN.LIF
+                 Random, Step, Load, Save, List
+     2.5 : 1994.3.2
+           for COLOR TEXT 80x25 mode
+           delete : end, show name
+           advance : title, menu, LEBEN.LIF
+                     Run, Random, Load, Save, List
+           add : show number, LEBEN.HLP, LEBEN.DOC. (LEBEN.PRN)
+                 Help, Next, Info, Print, Center
+     3.0 : 1994.4.4
+           for COLOR TEXT 80x25 or 80x50 or chinese mode
+           delete : List, Center, show number
+           advance : Info->Exp, Run->Grow, Clean->Clear, Load, Save, Random
+                     menu, characters, LEBEN.LIF, LEBEN.HLP, LEBEN.DOC
+           add : Step, Delete, Name, Find, Rotate,
+                 sound, mouse, chinese, parameter
+     3.1 : 1994.4.30
+           for CGA,EGA,VGA,VGA+ text mode or CGA chinese mode
+           delete : Delete, (LEBEN.BAK)
+           advance : menu, mouse, beep, parameter, Help, Explain,
+                     LEBEN.LIF, LEBEN.HLP, LEBEN.DOC
+           add : lawfulcheck, Get, Put, View, Mirrow
+     3.2 : 1994.5.21
+           for CGA,EGA,VGA,VGA+ text mode or CGA chinese mode
+           advance : mouse, LEBEN.LIF
+     X.X : XXXX.X.X
+           for all mode
+           add : other rules, discover
+
+
+>> about the reference <<
+
+        *:really on hand
+
+    *1. Anibal Antonio Acero, "AAALIFE.ZIP", v.1.0, 1989
+    *2. David Samuel Stauffer, "LIFE101.ZIP", 1989
+    *3. Jeffrey Youngstrom, "AALIFE.ZIP"
+     4. William Poundstone, "The Recursive Universe",
+        William Morrow and Company, NY:1985, p.p.252
+     5. John Horton Conway, 1968
+    *6. Martin Gardener, Scientific American, 1970.10
+     7. Byte
+     8. Ed Regis, "Who got Einstein's office?", 1987
+     9. A.K.Dewdney, "The fantastic combinations of John Conway's new solitaire game 'life'",
+        Scientific American, 1985.5
+
