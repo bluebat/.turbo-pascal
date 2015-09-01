@@ -1,4 +1,4 @@
 .turbo-pascal
 =============
 
-Trail programs for Turbo-Pascal
+Trial programs for Turbo-Pascal
